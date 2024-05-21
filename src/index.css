@@ -1,73 +1,29 @@
-/* *{
+*{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   background-color: #fff;
-} */
+  font-family: "Josefin Sans", "Arial Narrow", "Arial";
+}
 
-.heading_style {
-  padding: 30px 0px;
+h1{
+  color: white;
+  background: transparent;
+  text-shadow: 0 2px 2px black;
+}
+
+input{
+  width: 50%;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  margin: 20px 0;
   text-align: center;
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: 2px;
-  font-weight: bold;
-  color:#333;
-  background-color:#b69d9f;
-  font-size: 1.5rem;
-  margin-bottom: 30px;
 }
 
-.cards {
-  display: flex; 
-  justify-content:center;
-  flex-wrap: wrap;
-  margin-top: 20px;
-  margin-left: 112px;
-}
-
-
-.card {
-  background-color: lightgrey;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  width: 300px;
-  margin: 20px;
-  transition: all 0.3s ease;
-}
-
-
-.card:hover {
-  transform: translateY(-20px);
-  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.2); 
-}
-
-
-.card__img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
-
-.card__info {
-  padding: 20px;
-}
-
-.card__category {
-  font-size: 14px;
-  color: #888;
-}
-
-.card__title {
-  margin-top: 10px;
-  font-size: 20px;
-  color: #333;
-}
 
 button {
+  line-height: 24px;
   border: 2px solid whitesmoke;
   outline: none;
   padding: 12px 20px;
@@ -75,7 +31,7 @@ button {
   background-color: #b69d9f;
   color: #fff;
   font-size: 16px;
-  cursor:-webkit-grab;
+  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
@@ -86,7 +42,7 @@ button:hover {
 div {
   width: 100%;
   height: 100vh;
-  background-color: blueviolet;
+  background-color: #8e44ad;
   display: flex;
   flex-direction: column;
   justify-content: center;
