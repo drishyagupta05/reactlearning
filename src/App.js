@@ -1,24 +1,16 @@
-import React, { useState } from "react";
+// App.js
+import React from "react";
+import FileUpload from "./FileUpload";
+import "./index.css";
 
 const App = () => {
-  const [name, setName] = useState();
-  const [fullname, setFullName] = useState();
-
-  const InputEvent = (event) => {
-    console.log(event.target.value);
-    setName(event.target.value);
-  };
-
-  const onsubmit = () => {
-    setFullName(name);
-  };
-
   return (
-    <>
-      <h1> Hello {fullname} </h1>
-      <input type="text" placeholder="Enter your name" onChange={InputEvent} />
-      <button onClick={onsubmit}> Click me 👍</button>
-    </>
+    <div className="App">
+      <header className="App-header">
+        <h1>Multi-File Upload</h1>
+      </header>
+      <FileUpload />
+    </div>
   );
 };
 

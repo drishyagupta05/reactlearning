@@ -1,50 +1,48 @@
-*{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  background-color: #fff;
-  font-family: "Josefin Sans", "Arial Narrow", "Arial";
+.App {
+  text-align: left;
+  padding: 20px;
 }
 
-h1{
+.App-header {
+  background-color: #003366;
+  padding: 20px;
   color: white;
-  background: transparent;
-  text-shadow: 0 2px 2px black;
-}
-
-input{
-  width: 50%;
-  padding: 10px 20px;
-  border: none;
-  outline: none;
-  margin: 20px 0;
   text-align: center;
 }
 
+.App-footer {
+  background-color: #003366;
+  padding: 10px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+p {
+  margin: 20px 0;
+}
+
+input[type="file"] {
+  margin: 20px 0;
+}
 
 button {
-  line-height: 24px;
-  border: 2px solid whitesmoke;
-  outline: none;
-  padding: 12px 20px;
-  border-radius: 5px;
-  background-color: #b69d9f;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  padding: 10px 20px;
+  margin-top: 10px;
 }
 
-button:hover {
-  background-color:lightcoral;
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-div {
-  width: 100%;
-  height: 100vh;
-  background-color: #8e44ad;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+li {
+  background: #f3f3f3;
+  margin: 5px 0;
+  padding: 10px;
 }
